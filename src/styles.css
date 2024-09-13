@@ -1,0 +1,95 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+header {
+  height: 10vh;
+  border: 1px solid black;
+}
+nav {
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+
+nav .left {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+nav .right {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+button {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  border-right: 1px solid black;
+  font-size: 1.3rem;
+  cursor: pointer;
+}
+
+.slider-container {
+  height: 70vh;
+  width: 50vw;
+  border: 1rem solid #f6d672;
+  border-radius: 1rem;
+  margin: auto;
+  margin-top: 3rem;
+  margin-bottom: 1rem;
+  position: relative;
+}
+
+.slider {
+  width: 100%;
+  height: 100%;
+}
+.slider > img {
+  width: 100%;
+  height: 100%;
+}
+.left-arrow,
+.right-arrow {
+  width: 2.5rem;
+  position: absolute;
+  top: 10rem;
+  cursor: pointer;
+}
+
+.left-arrow {
+  left: -4rem;
+}
+.right-arrow {
+  right: -4rem;
+}
+
+.hidden {
+  display: none;
+}
+
+.options {
+  display: flex;
+  margin-top: 1.4rem;
+  justify-content: center;
+  gap: 1rem;
+}
+.options > button {
+  border: 1px solid red;
+  border-radius: 50%;
+  height: 1.2rem;
+  width: 1.2rem;
+}
+
+.selected {
+  background: #f6d672;
+}
