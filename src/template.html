@@ -1,11 +1,49 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Weather app</title>
-</head>
-<body>
-  
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather app</title>
+  </head>
+  <body>
+    <div class="container">
+      <p class="search-bar">
+        <input
+          type="text"
+          name="search"
+          id="search"
+          placeholder="Enter a city name"
+        />
+        <button type="button" class="search-btn">Search</button>
+      </p>
+      <div class="card">
+        <div class="heading">
+          <h4 class="location">location</h4>
+          <p class="day">day</p>
+        </div>
+
+        <div class="middle">
+          <img src="#" alt="weather-icon" class="icon" />
+          <h3 class="temp"></h3>
+          <p class="description"></p>
+        </div>
+
+        <div class="bottom-info">
+          <div>
+            <h4>Wind Speed</h4>
+            <p class="wind"></p>
+          </div>
+          <div>
+            <h4>Humidity</h4>
+            <p class="humidity"></p>
+          </div>
+          <div>
+            <h4>Visibility</h4>
+            <p class="visibility"></p>
+          </div>
+        </div>
+      </div>
+      <img src="./weather-icons/404.jpg" class="website-down invisible" id="down404"></img>
+    </div>
+  </body>
 </html>

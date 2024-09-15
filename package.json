@@ -1,5 +1,5 @@
 {
-  "name": "image-carousel",
+  "name": "weather-app",
   "version": "1.0.0",
   "description": "This page is created using DOM manipulation and using ES6 modules.",
   "main": "index.js",
